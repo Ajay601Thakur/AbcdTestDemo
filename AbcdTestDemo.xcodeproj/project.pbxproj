@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18762D5628816DD400008E46 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18762D5428816DD400008E46 /* LICENSE */; };
+		18762D5728816DD400008E46 /* AbcdTestDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18762D5528816DD400008E46 /* AbcdTestDemo.podspec */; };
+		18762D5928816E4600008E46 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18762D5828816E4600008E46 /* README.md */; };
 		189097D528813F1000572676 /* AbcdTestDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 189097D428813F1000572676 /* AbcdTestDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		189097E228813F3200572676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189097E128813F3200572676 /* AppDelegate.swift */; };
 		189097E428813F3300572676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189097E328813F3300572676 /* SceneDelegate.swift */; };
@@ -46,6 +49,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18762D5428816DD400008E46 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18762D5528816DD400008E46 /* AbcdTestDemo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AbcdTestDemo.podspec; sourceTree = "<group>"; };
+		18762D5828816E4600008E46 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		189097D128813F1000572676 /* AbcdTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AbcdTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		189097D428813F1000572676 /* AbcdTestDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbcdTestDemo.h; sourceTree = "<group>"; };
 		189097DF28813F3200572676 /* AbcdApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbcdApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				189097D428813F1000572676 /* AbcdTestDemo.h */,
+				18762D5828816E4600008E46 /* README.md */,
+				18762D5528816DD400008E46 /* AbcdTestDemo.podspec */,
+				18762D5428816DD400008E46 /* LICENSE */,
 			);
 			path = AbcdTestDemo;
 			sourceTree = "<group>";
@@ -154,7 +163,6 @@
 				53CD3DC223968DD3EBE948D5 /* Pods-AbcdTestDemo.debug.xcconfig */,
 				4E55ACB2BEACA4DF1E18A747 /* Pods-AbcdTestDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -254,6 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18762D5928816E4600008E46 /* README.md in Resources */,
+				18762D5628816DD400008E46 /* LICENSE in Resources */,
+				18762D5728816DD400008E46 /* AbcdTestDemo.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
