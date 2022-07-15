@@ -17,6 +17,8 @@
 		189097F428813F4F00572676 /* AbcdTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189097D128813F1000572676 /* AbcdTestDemo.framework */; };
 		189097F528813F4F00572676 /* AbcdTestDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 189097D128813F1000572676 /* AbcdTestDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		189097FB2881401300572676 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189097FA2881401300572676 /* DemoApp.swift */; };
+		573A5B12E726C606C962C33E /* Pods_AbcdApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBA5F1FDD441F96C910E667 /* Pods_AbcdApp.framework */; };
+		7921BC2C965B5CA4E690112B /* Pods_AbcdTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5431ABAADFE0AE80D3A19B16 /* Pods_AbcdTestDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,12 @@
 		189097ED28813F3400572676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189097EF28813F3400572676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189097FA2881401300572676 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
+		3BBA5F1FDD441F96C910E667 /* Pods_AbcdApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcdApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E55ACB2BEACA4DF1E18A747 /* Pods-AbcdTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcdTestDemo.release.xcconfig"; path = "Target Support Files/Pods-AbcdTestDemo/Pods-AbcdTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		51F88DC3D4115161DDA469A8 /* Pods-AbcdApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcdApp.release.xcconfig"; path = "Target Support Files/Pods-AbcdApp/Pods-AbcdApp.release.xcconfig"; sourceTree = "<group>"; };
+		53CD3DC223968DD3EBE948D5 /* Pods-AbcdTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcdTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-AbcdTestDemo/Pods-AbcdTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5431ABAADFE0AE80D3A19B16 /* Pods_AbcdTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbcdTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC17D3DAB28F799759985138 /* Pods-AbcdApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbcdApp.debug.xcconfig"; path = "Target Support Files/Pods-AbcdApp/Pods-AbcdApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7921BC2C965B5CA4E690112B /* Pods_AbcdTestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189097F428813F4F00572676 /* AbcdTestDemo.framework in Frameworks */,
+				573A5B12E726C606C962C33E /* Pods_AbcdApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +94,7 @@
 				189097E028813F3200572676 /* AbcdApp */,
 				189097D228813F1000572676 /* Products */,
 				189097F328813F4F00572676 /* Frameworks */,
+				FD3A7DFD9DD11E351EFCB265 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +132,8 @@
 		189097F328813F4F00572676 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3BBA5F1FDD441F96C910E667 /* Pods_AbcdApp.framework */,
+				5431ABAADFE0AE80D3A19B16 /* Pods_AbcdTestDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,6 +144,18 @@
 				189097FA2881401300572676 /* DemoApp.swift */,
 			);
 			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		FD3A7DFD9DD11E351EFCB265 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC17D3DAB28F799759985138 /* Pods-AbcdApp.debug.xcconfig */,
+				51F88DC3D4115161DDA469A8 /* Pods-AbcdApp.release.xcconfig */,
+				53CD3DC223968DD3EBE948D5 /* Pods-AbcdTestDemo.debug.xcconfig */,
+				4E55ACB2BEACA4DF1E18A747 /* Pods-AbcdTestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189097D828813F1000572676 /* Build configuration list for PBXNativeTarget "AbcdTestDemo" */;
 			buildPhases = (
+				9961222E149FB9DAE2F53175 /* [CP] Check Pods Manifest.lock */,
 				189097CC28813F1000572676 /* Headers */,
 				189097CD28813F1000572676 /* Sources */,
 				189097CE28813F1000572676 /* Frameworks */,
@@ -169,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189097F028813F3400572676 /* Build configuration list for PBXNativeTarget "AbcdApp" */;
 			buildPhases = (
+				658E814D6592D9B9B94E0381 /* [CP] Check Pods Manifest.lock */,
 				189097DB28813F3200572676 /* Sources */,
 				189097DC28813F3200572676 /* Frameworks */,
 				189097DD28813F3200572676 /* Resources */,
@@ -241,6 +268,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		658E814D6592D9B9B94E0381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbcdApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9961222E149FB9DAE2F53175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbcdTestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		189097CD28813F1000572676 /* Sources */ = {
@@ -413,6 +487,7 @@
 		};
 		189097D928813F1000572676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53CD3DC223968DD3EBE948D5 /* Pods-AbcdTestDemo.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +518,7 @@
 		};
 		189097DA28813F1000572676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E55ACB2BEACA4DF1E18A747 /* Pods-AbcdTestDemo.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +548,7 @@
 		};
 		189097F128813F3400572676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC17D3DAB28F799759985138 /* Pods-AbcdApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -501,6 +578,7 @@
 		};
 		189097F228813F3400572676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F88DC3D4115161DDA469A8 /* Pods-AbcdApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
