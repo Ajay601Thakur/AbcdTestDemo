@@ -16,10 +16,10 @@ Pod::Spec.new do |spec|
   
   spec.author             = { "ajay" => "ajay01493@gmail.com" }
 
-  spec.source        = { :git => 'https://github.com/Ajay601Thakur/TestSocialSDK.git', :tag => s.version.to_s }
+  spec.source        = { :git => 'https://github.com/Ajay601Thakur/AbcdTestDemo.git', :tag => s.version.to_s }
 
   spec.ios.deployment_target = '13.0'
-  spec.source_files = 'TestSocialSDK/Classes/**/*'
+  spec.source_files = 'AbcdTestDemo/Classes/**/*'
   spec.swift_versions = ['5.0', '5.1']
 
 
