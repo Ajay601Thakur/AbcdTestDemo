@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AbcdTestDemo"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of AbcdTestDemo."
   spec.description = <<-DESC
 TODO: Add long description of the pod here.
@@ -12,7 +12,7 @@ TODO: Add long description of the pod here.
   spec.source        = { :git => 'https://github.com/Ajay601Thakur/AbcdTestDemo.git', :tag => spec.version.to_s }
   
   spec.ios.deployment_target = '15.5'
-  spec.source_files = 'AbcdTestDemo/Classes/**/*'
+  spec.source_files = 'AbcdTestDemo/**/*.{swift,h,m}'
   spec.swift_versions = ['5.0', '5.1']
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
