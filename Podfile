@@ -5,6 +5,8 @@ target 'AbcdApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+  pod 'AbcdTestDemo', :git=> 'https://github.com/Ajay601Thakur/AbcdTestDemo.git'
+
   # Pods for AbcdApp
 
 end

@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: a00f98c5e616d7770ef6f1348adc75c64a032401
+PODS:
+  - AbcdTestDemo (1.0.2)
+
+DEPENDENCIES:
+  - AbcdTestDemo
+
+SPEC REPOS:
+  trunk:
+    - AbcdTestDemo
+
+SPEC CHECKSUMS:
+  AbcdTestDemo: bc4be12873cfc2e7385cc2b443ce0c7f8f522a30
+
+PODFILE CHECKSUM: daa0198aa32c5bff8e115b0a9c06a6e17fa2bd5c
 
 COCOAPODS: 1.11.3

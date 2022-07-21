@@ -10,7 +10,6 @@ import UIKit
 
 
 public class RandomColorMsg : NSObject {
-    
     public func getSomecolor() -> UIColor {
         var red = CGFloat()
         var green = CGFloat()
